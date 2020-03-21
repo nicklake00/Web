@@ -15,7 +15,7 @@ new_new_followers_count = []
 for i in range(n):
     G1.add_node(i)
     new_new_sex.append(new_sex[i])
-#new_new_sex.append(1)
+
 
 for i in range(len(new_new_sex)):
     new_new_sex[i] = new_new_sex[i] * new_new_sex[i] * 800
@@ -135,7 +135,6 @@ for i in rnew_new_country:
         k += 1
 
 ## Третий граф отрисовка
-
 G = rG1
 pos = rpos1
 
@@ -163,9 +162,7 @@ plt.axis('off')
 plt.show()
 
 ## Четвертый граф
-
 bG1 = nx.Graph()
-
 blabels = {}
 bbirth = []
 bscreen = []
@@ -203,7 +200,6 @@ for i in range(n):
 bpos1 = nx.spring_layout(bG1)
 
 ## Четвертный граф отрисовка
-
 G = bG1
 pos = bpos1
 
