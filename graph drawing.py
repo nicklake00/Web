@@ -137,7 +137,7 @@ for i in rnew_new_country:
 
 ## Третий граф отрисовка
 
-def Random_Geometric_Graph_country():
+def Random_Geometric_Graph_country(G, pos):
     dmin = 1
     ncenter = 0
     for n in pos:
@@ -203,7 +203,7 @@ bpos1 = nx.spring_layout(bG1)
 
 ## Четвертный граф отрисовка
 
-def Random_Geometric_Graph_birth():
+def Random_Geometric_Graph_birth(G, pos):
     dmin = 1
     ncenter = 0
     for n in pos:
